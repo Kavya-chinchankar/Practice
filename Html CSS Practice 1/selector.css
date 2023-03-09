@@ -1,0 +1,91 @@
+/*p{
+    color: gray;
+}
+
+a{
+    color:gray;
+}*/
+
+a,p{
+    color: gray;
+}
+
+a{
+    background-color: aliceblue;
+}
+li{ 
+    list-style-type: disc;
+}
+
+/*.s{
+    color: brown;
+    font-style: oblique;
+}
+
+.l{
+    font-weight: 400;
+    font-weight: bold;
+}*/
+
+/*...........................CLASS.......................*/
+
+li.s,
+p.s{
+color: brown;
+font-style: oblique;
+}
+
+li em{
+    font-style: normal ;
+}
+
+h1+p{
+    font-size: smaller;
+}
+
+a:visited{
+    color: black;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+body p+p.s{
+    color: yellowgreen;
+    background-attachment: fixed;
+    background-color: black;
+    padding: 5%;
+}
+
+/*...................................ID.......................................*/
+
+#spicy{
+    color: maroon;
+    background-color: yellow;
+    background-position: 8%;
+    padding:2%;
+}
+
+p#T{
+    font-stretch: ultra-condensed;
+    color: blue;
+}
+
+
+/*..........................ATTRIBUTE SELECTOR.................*/
+
+
+/*li[class]{
+    color: palevioletred;
+}*/
+
+li[id]{
+    color: aqua;
+}
+
+li[id="a"]{
+    color: royalblue;
+}
+
+a[href="Everything.html"]{
+    color: red;
+}
