@@ -1,0 +1,46 @@
+.p1{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    color: brown;
+    
+}
+
+.p2{
+    font-size: 25px;
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration: solid;
+    text-shadow: 1px 2px 1px brown;
+   
+}
+
+.p3{
+    font-size: 25px;
+    text-shadow: -1px -2px 2px brown;
+    height: 200px;
+    overflow: scroll;   
+}
+
+.p4{
+    font-size: 20px;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: dotted;
+    background-color: bisque;
+
+}
+
+body{
+    background-image: linear-gradient(rgb(207, 207, 231),rgb(42, 39, 39))
+
+    /* background-repeat: no-repeat; */
+    /* margin-top: 10px; */
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    /* margin-bottom: 20px; */
+    /* background-attachment: scroll; */
+    /* background-position: left top; */
+
+}
