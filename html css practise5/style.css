@@ -1,0 +1,23 @@
+
+p::after{
+ content: "noooo";
+}
+
+
+h1::before{
+    counter-increment: hii;
+    content: counter(hii)".";
+}
+
+body{
+    counter-reset: hii;
+}
+
+h2::before{
+    counter-increment: hello;
+    content: counter(hii)"."counter(hello);
+}
+
+h1{
+    counter-reset: hello;
+}
