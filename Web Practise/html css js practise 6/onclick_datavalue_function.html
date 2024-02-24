@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <textarea name="" id="id1" cols="10" rows="2"></textarea>
+        <textarea name="" id="id2" cols="10" rows="2"></textarea>
+        <br>
+        <input type="button" data-value="add" onclick="math(event)">
+        <input type="button" data-value="sub" onclick="math(event)">
+        <input type="button" data-value="mul" onclick="math(event)">
+        <input type="button" data-value="div" onclick="math(event)">
+</body>
+<script>
+    function math(e){
+        var a = e.target.getAttribute('data-value')
+        var b = document.getElementById('id1').value
+        var c = documnet.getElementById('id2').value
+        console.log(a)
+        if(a == "add"){
+            console.log(parseInt(b)+parseInt(c));
+        }
+    
+
+       
+
+    }
+</script>
+</html>
