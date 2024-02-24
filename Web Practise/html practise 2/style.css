@@ -1,0 +1,36 @@
+
+.form{
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+    font-size: larger;
+    text-transform: uppercase;
+
+}
+
+label{
+    color: blueviolet;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+fieldset input{
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    padding: 5px;
+    
+}
+
+fieldset{
+    background-color: rgb(211, 211, 196);
+    padding: 12px;
+    box-sizing: border-box;
+    margin: 15px 30px;
+}
+
+textarea{
+    border: 2px solid black;
+    margin-left: 15px;
+}
