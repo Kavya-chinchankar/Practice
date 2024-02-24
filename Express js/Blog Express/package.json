@@ -1,0 +1,17 @@
+{
+  "name": "blog-express",
+  "version": "1.0.0",
+  "description": "this is ablog created during a express js practise session",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kavya",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "express-handlebars": "^7.1.2"
+  }
+}
