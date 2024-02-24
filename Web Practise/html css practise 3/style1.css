@@ -1,0 +1,8 @@
+body{
+    /* background-image: linear-gradient( to bottom right, rgb(226, 226, 237),black); */
+    /* background-image: radial-gradient( rgb(171, 70, 70) 50%,rgb(231, 214, 214) ); */
+    background-image: conic-gradient(rgb(203, 203, 232),rgb(50, 43, 43), rgb(104, 104, 231));
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
