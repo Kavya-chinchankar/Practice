@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    i am learning js
+
+    <h1>Event</h1>
+
+    <script>
+          // VARIABLE
+
+          // var a =67;
+          // var a ='i am kavya';
+
+          // let a = 34;
+          //let a = 'i am kavya'
+
+          // const a= 68;
+          // a = 4536; // it will give the error
+
+          // console.log(a);
+
+          // DATATYPES
+          // Numbers
+          // Object
+          // Booleans - True or False
+          // String
+          // undefined
+          // null
+
+
+          // FUNCTION
+
+          function hello(){
+              console.log('Hey!! How Are YOU??!!')
+          }
+
+
+          // OBJECT
+
+          // let a = {
+          //     r : 34,
+          //     m : 64
+          // }
+
+          let a = {
+              r : 34,
+              m : 64,
+              func: function muFunc(number){
+                  console.log("The number is " +number);
+              }
+          }
+
+          // EVENT
+
+          document.addEventListener("click", function click(){
+              console.log("clicked");
+              //alert("hello");
+              let conf = confirm("Are You Sure??!!");
+              console.log(conf);
+          })
+
+         // ARROW FUNCTION =>
+
+         console.log(this);
+
+      //    function muFunc(){
+      //             console.log("The number is " + this);
+      //    }
+      //    myFunc();
+
+      let myFunc = (number) =>{
+          console.log("The number is" + this);
+      }
+      myFunc();
+
+      let mobj = {
+         b: this,
+         myfunc : (number) =>{
+            console.log("The number is" + this);
+         }
+      }
+      mobj.myfunc();
+
+      // CALL BACK FUNCTION
+
+      setTimeout(() =>{
+        console.log("yayy");
+      },3000);
+      console.log("i am last script");
+
+    </script>
+  </body>
+</html>
